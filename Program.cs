@@ -4,14 +4,34 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.Write("Введите трехзначное число: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-if (1000 > num1 && num1 > 99)
-{
-    int num2 = (num1 / 10) % 10;
-    Console.WriteLine($"Вторая цифра числа: {num2}");
-}
-else
-{
-    Console.WriteLine($"Число {num1} не является трехзначным");
-}
+// Console.Write("Введите трехзначное число: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// if (1000 > num1 && num1 > 99)
+// {
+//     int num2 = (num1 / 10) % 10;
+//     Console.WriteLine($"Вторая цифра числа: {num2}");
+// }
+// else
+// {
+//     Console.WriteLine($"Число {num1} не является трехзначным");
+// }
+
+// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+// 645 -> 5
+// 78 -> третьей цифры нет
+// 32679 -> 6
+
+// Console.Write("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// if (num > 99)
+// {
+//     while (num> 999)
+//     {
+//         num = num / 10;
+//     }
+// int result = num % 10;
+// Console.WriteLine(result);
+// }
+// else
+// Console.Write("Третьей цифры нет ");
